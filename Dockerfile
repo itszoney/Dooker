@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/ArchBots/Nm Nm
+RUN git clone https://github.com/VIP-SAKIL/Nm Nm
 RUN cd Nm && pip3 install -U -r requirements.txt
 CMD cd Nm && python3 -m YukkiMusic
