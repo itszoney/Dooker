@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/ArchBots/ArchBypass ArchBypass
-RUN cd ArchBypass && pip3 install -U -r requirements.txt
-CMD cd ArchBypass && python3 -m YukkiMusic
+RUN git clone https://github.com/ArchBots/Nm Nm
+RUN cd Nm && pip3 install -U -r requirements.txt
+CMD cd Nm && python3 -m YukkiMusic
