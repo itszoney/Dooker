@@ -25,12 +25,12 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6189174968:AAFgUKQBOvo5b-C7rjALo38qqXnlGdu3a20",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Mongo DB URL",
-        "value": "",
+        "value": "mongodb+srv://sakilanowar78:atIAQ0iJ2bwlMig7@cluster0.1mqytch.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
@@ -45,7 +45,7 @@
       },       
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
-        "value": "",
+        "value": "BQFPLzcAFOHdaBjegFERO-B6Ao8v2xfFN1FNc6o6w8VKq5hKvNPAdSwKpNaycfXwPEGMSK22eb7so9FeKTpN6K2BgRk5C7AC10f596QCE3vtoi4QoD6grDPcu5Jk1uwUIjfP1jLmRFytCtlBOu3LVz-iU74I8uWklwVKv5Tgkq6UuS8NBEFPte41-973ZcHwKW7HDPnUqJP05azCTiJS0EehVi6brW79ypJ2x1GS4pT75H5RazOz01ZXXkCcnDYyVUjtLDWMN2o849YoFEtc9wWwNRB-uTMeFYNKxxtcSUB7ngbWgluLtcKcrNbOA_laC34fhMnFcH0GCuYkCcZorJ_Oond1hwAAAAFMbgrwAA",
         "required": true
       },
       "HEROKU_API_KEY": {
