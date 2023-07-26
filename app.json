@@ -45,7 +45,7 @@
       },       
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
-        "value": "BQFPLzcAFOHdaBjegFERO-B6Ao8v2xfFN1FNc6o6w8VKq5hKvNPAdSwKpNaycfXwPEGMSK22eb7so9FeKTpN6K2BgRk5C7AC10f596QCE3vtoi4QoD6grDPcu5Jk1uwUIjfP1jLmRFytCtlBOu3LVz-iU74I8uWklwVKv5Tgkq6UuS8NBEFPte41-973ZcHwKW7HDPnUqJP05azCTiJS0EehVi6brW79ypJ2x1GS4pT75H5RazOz01ZXXkCcnDYyVUjtLDWMN2o849YoFEtc9wWwNRB-uTMeFYNKxxtcSUB7ngbWgluLtcKcrNbOA_laC34fhMnFcH0GCuYkCcZorJ_Oond1hwAAAAFMbgrwAA",
+        "value": "BQFPLzcAvVtTUahMdWuWHy6nkmfLJ7PV9EwOf61TCZKvnaL3OavqfA3vOYvPKOzzWC5LY8pKAL12rAJYjaL7I11IJrEITeQqwjKKiCVo6xG2igqPCuRcAJS8ODwTI_rO6lwnrbLB0_vVpe5UA1XXKhOLW1vr0Zhgf2uHtc2pBAFxj8ORvk7QUfZ5PfRifWfNb_r1xDK6c43wLjKDcvPYNQ7rKLCldceiCe0fdHg7JpW_bBLiQCcKrn3hylZx0w1T8fUyu472glsdtQygjjU7nzIolI1ZYguCKzP0ArkJxcYn3waWPIPpGg-WaCIHnU9Serp8Oyr8jkNxruuNzaVeJMCI-fUIsgAAAAFMbgrwAA",
         "required": true
       },
       "HEROKU_API_KEY": {
