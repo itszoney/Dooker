@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "21966647",
+        "value": "29131399",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "cf9724197b0d6e7d8a53e46763b34fd1",
+        "value": "bf43dced8b0dbe587788e3a45d89f1f7",
         "required": true
       },
       "BOT_TOKEN": {
@@ -41,7 +41,7 @@
       "GIT_TOKEN": {
         "description": "Git Token",
         "value": "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",
-        "required": true
+        "required": false
       },       
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
