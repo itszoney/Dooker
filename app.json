@@ -1,79 +1,92 @@
 {
-    "name": "Aysha Music",
-    "description": "It is a Alone Music bypass to Bypass Heroku and Railway restrictions on Alone Music firstlly do star and then copy Nigga.",
-    "logo": "https://telegra.ph/file/9d695d5fa321c87e0bab7.jpg",
-    "keywords": [
+  "name": "heroku",
+  "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+  "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+  "keywords": [
     "python3",
     "telegram",
     "bot",
-    "sakil000",
-    "Ay2",
-    "Ay2",
+    "telegram-bot",
     "pyrogram"
-    ],
-    "stack": "container",
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "29131399",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "bf43dced8b0dbe587788e3a45d89f1f7",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "6189174968:AAFgUKQBOvo5b-C7rjALo38qqXnlGdu3a20",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Mongo DB URL",
-        "value": "mongodb+srv://sakilanowar78:atIAQ0iJ2bwlMig7@cluster0.1mqytch.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "6024212623",
-        "required": true
-      }, 
-      "GIT_TOKEN": {
-        "description": "Git Token",
-        "value": "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",
-        "required": false
-      },       
-      "STRING_SESSION": {
-        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
-        "value": "BQFPLzcAvVtTUahMdWuWHy6nkmfLJ7PV9EwOf61TCZKvnaL3OavqfA3vOYvPKOzzWC5LY8pKAL12rAJYjaL7I11IJrEITeQqwjKKiCVo6xG2igqPCuRcAJS8ODwTI_rO6lwnrbLB0_vVpe5UA1XXKhOLW1vr0Zhgf2uHtc2pBAFxj8ORvk7QUfZ5PfRifWfNb_r1xDK6c43wLjKDcvPYNQ7rKLCldceiCe0fdHg7JpW_bBLiQCcKrn3hylZx0w1T8fUyu472glsdtQygjjU7nzIolI1ZYguCKzP0ArkJxcYn3waWPIPpGg-WaCIHnU9Serp8Oyr8jkNxruuNzaVeJMCI-fUIsgAAAAFMbgrwAA",
-        "required": true
-      },
-      "HEROKU_API_KEY": {
-        "description": "885e509e-4ee0-4587-b213-eff02e145270",
-        "value": "",
-        "required": true
-      },
-      "HEROKU_APP_NAME": {
-        "description": "ayshamusic",
-        "value": "",
-        "required": true
-      },
-      "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001923845903",
-        "required": true
-      }
+  ],
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "AUTO_LEAVING_ASSISTANT": {
+      "description": "If you want your assistant to leave all chats automatically after some time.",
+      "value": "false",
+      "required": false
+    },
+    "BOT_TOKEN": {
+      "description": "A Bot's token from Botfather",
+      "value": "",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+      "value": "",
+      "required": true
+    },
+    "MUSIC_BOT_NAME": {
+      "description": "A name for your Music Bot. Please don't use ascii characters",
+      "value": "AAROHI MUSIC",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be separated with a space.",
+      "value": "5218610039",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku account's API key",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your heroku app/bot's name",
+      "value": "",
+      "required": false
+    },
+    "LOG_GROUP_ID": {
+      "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+      "value": "",
+      "required": true
+    },
+    "UPSTREAM_REPO": {
+      "description": "If you dont know this, Leave as it is",
+      "value": "https://github.com/Chiranjibkoch/YukkiV",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
   }
