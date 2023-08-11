@@ -5,6 +5,6 @@ RUN apt-get update -y && apt-get upgrade -y \
     && rm -rf /var/lib/apt/lists/*
 COPY . /app/
 WORKDIR /app/
-RUN git clone https://github.com/Chiranjibkoch/YukkiV YukkiV
-RUN cd YukkiV && pip3 install -U -r requirements.txt
-CMD cd YukkiV && python3 -m YukkiMusic
+RUN git clone https://github.com/Chiranjibkoch/ramdirempo ramdirempo
+RUN cd ramdirempo && pip3 install -U -r requirements.txt
+CMD cd ramdirempo && python3 -m YukkiMusic
