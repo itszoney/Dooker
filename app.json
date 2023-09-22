@@ -38,12 +38,12 @@
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot. Please don't use ascii characters",
-      "value": "AAROHI MUSIC",
+      "value": "",
       "required": true
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be separated with a space.",
-      "value": "5218610039",
+      "value": "",
       "required": true
     },
     "STRING_SESSION": {
@@ -68,7 +68,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/Chiranjibkoch/YukkiV",
+      "value": "https://github.com/ArchBots/ArchMusic",
       "required": true
     }
   },
